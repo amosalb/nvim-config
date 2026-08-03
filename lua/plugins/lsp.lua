@@ -6,7 +6,8 @@ return {
                 "lua_ls",
                 "bashls",
                 "pyright",
-                "ruff"
+                "ruff",
+                "stylua",
             },
         },
         dependencies = {
