@@ -24,6 +24,8 @@ return {
 
 					-- Decrease update time from default 4000ms to 300ms for a faster response
 					vim.o.updatetime = 300
+                    vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })
+                    vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' })
 				end,
 			},
 		},
